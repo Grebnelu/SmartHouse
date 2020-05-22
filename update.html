@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="span10 offset1">
+        <div class="row">
+            <h3>Aktualizacja danych sprzętu</h3>
+        </div>
+
+        <form  action="update.html?idKraju=1" method="post">
+            <div class="form-group row" >
+                <label class="col-sm-1 control-label">ID Kraju</label>
+                <div class="col-sm-5">
+                    <input name="idKraju" type="text"  class="form-control" placeholder="idKraju" value="1">
+                                    </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-1 control-label">Kraj</label>
+                <div class="col-sm-5">
+                    <input name="kraj" type="text" class="form-control"  placeholder="kraj" value="Niemcy">
+                                    </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-1 control-label">Wyposażenie</label>
+                <div class="col-sm-5">
+                    <input name="wyposazenie" type="text" class="form-control"  placeholder="wyposażenie" value="Duze">
+                                    </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-1 control-label">Stan Sprzętu</label>
+                <div class="col-sm-5">
+                    <input name="bojowa" type="text" class="form-control" placeholder="bojowa" value="Duza">
+                                    </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-1 control-label">Ilość</label>
+                <div class="col-sm-5">
+                    <input name="wyprodukowane" type="text"  class="form-control" placeholder="wyprodukowane" value="123">
+                                    </div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-success">Zapisz</button>
+                <a class="btn btn-primary" href="index.html">Cofnij</a>
+            </div>
+        </form>
+    </div>
+</div> <!-- /container -->
+
+</body>
+
+</html>
